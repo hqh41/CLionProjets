@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houqinghua/Desktop/ILO/CLionProjects/Palindrome_Number/main.cpp
+iostream
+-
+deque
+-
+math.h
+-
+

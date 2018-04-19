@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/houqinghua/Desktop/ILO/CLionProjects/Merge_two_sorted_lists/LinkList.cpp
+LinkList.h
+/Users/houqinghua/Desktop/ILO/CLionProjects/Merge_two_sorted_lists/LinkList.h
+iostream
+-
+
+/Users/houqinghua/Desktop/ILO/CLionProjects/Merge_two_sorted_lists/LinkList.h
+
+/Users/houqinghua/Desktop/ILO/CLionProjects/Merge_two_sorted_lists/main.cpp
+LinkList.h
+/Users/houqinghua/Desktop/ILO/CLionProjects/Merge_two_sorted_lists/LinkList.h
+iostream
+-
+
