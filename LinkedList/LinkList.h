@@ -18,8 +18,10 @@ public:
     LinkList(){head = nullptr;}
     //~LinkList();
     bool Insert(int i, int e);
+
 };
-ListNode * addTwoNumbers(ListNode* l1, ListNode* l2);
-ListNode* swapPairs(ListNode* head);
+ListNode* rotateRight(ListNode* head, int k);
+//ListNode * addTwoNumbers(ListNode* l1, ListNode* l2);
+//ListNode* swapPairs(ListNode* head);
 
 #endif //LINKEDLIST_LINKLIST_H

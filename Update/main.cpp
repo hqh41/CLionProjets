@@ -1,12 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int update(int j){
-    return j^0xfedcba98;
+
+int func(int a){
+    int count = 0;
+    while(a){
+        count++;
+        a = a & (a-1);
+    }
+    return count;
 }
 
 
 int main() {
-    std::cout << update(update(update(update(2018)))) << std::endl;
-    return 0;
+    cout << func(911) << endl;
 }

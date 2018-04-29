@@ -28,9 +28,9 @@ vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
 
 
 int main() {
-    vector<int> v{1, 2, 3};
+    vector<int> v{1, 2, 3, 4};
     vector<vector<int>> result;
-    result = combinationSum(v, 6);
+    result = combinationSum(v, 8);
     for(auto ele : result){
         for(auto e : ele){
             cout << e << ',';

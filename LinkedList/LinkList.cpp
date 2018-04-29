@@ -38,6 +38,24 @@ bool LinkList::Insert(int i, int e){
     return true;
 }
 
+ListNode* rotateRight(ListNode* head, int k) {
+    if(k == 0 || head == nullptr || head->next == nullptr)
+        return head;
+    while(k != 0){
+        k--;
+        ListNode* cur = head;
+        ListNode* pre = head;
+        while(cur->next != nullptr){
+            pre = cur;
+            cur = cur->next;
+        }
+        pre->next = cur->next;
+        cur->next = head;
+        head = cur;
+    }
+    return head;
+}
+
 /*ListNode * addTwoNumbers(ListNode* l1, ListNode* l2) {
     long int result1 = 0;
     int size_moins_11 = 0;
